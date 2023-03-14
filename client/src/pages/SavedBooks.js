@@ -28,3 +28,16 @@ const SavedBooks = () => {
         if (!token) {
             return false;
         }
+
+        try {
+            // const response = await deleteBook(bookId, token);
+            const { data } = await removeBook({
+                variables: { bookId }
+            });
+
+            // remove book's id from localStorage
+            removeBookId(bookId);
+        } catch (err) {
+            console.error(err);
+        }
+    };
