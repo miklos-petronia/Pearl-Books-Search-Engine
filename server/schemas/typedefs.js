@@ -1,4 +1,4 @@
-// import the gql tagged template function (they are an advanced use if template literals)
+// get the gql tagged template function application. Its an advanced use if template literals
 const { gql } = require("apollo-server-express");
 
 const typeDefs = gql`
