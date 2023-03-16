@@ -1,11 +1,10 @@
-// View SignupForm.js for notes
+// view SignupForm.js for comments/notes
 import React, { useState } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 import { useMutation } from "@apollo/react-hooks";
 
 import Auth from "../utils/auth";
 import { LOGIN_USER } from "../utils/mutations";
-
 
 const LoginForm = () => {
     const [userFormData, setUserFormData] = useState({ email: "", password: "" });
@@ -21,8 +20,8 @@ const LoginForm = () => {
 
     const handleFormSubmit = async (event) => {
         event.preventDefault();
-        
-    // Search if form has everything as on react-bootstrap documents
+
+        // search if form has everything based on per react-bootstrap documents
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
             event.preventDefault();

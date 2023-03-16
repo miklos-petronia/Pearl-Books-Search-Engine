@@ -3,6 +3,7 @@ const { User } = require('../models');
 // import sign token function from auth
 const { signToken } = require('../utils/auth');
 
+
 module.exports = {
     // get a single user by either their id or their username
     async getSingleUser({ user = null, params }, res) {
