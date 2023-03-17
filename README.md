@@ -1,13 +1,12 @@
 # Pearl-Books-Search-Engine
 ## Table of Contents
-* [Description](#Description)
-* [User Story](#User-Story)
-* [Acceptance Criteria](#Acceptance-Criteria)
+* [Description](#description)
+* [User-Story](#user-story)
 * [Usage](#usage)
 * [License](#license)
 * [Credits](#credits)
 * [Contributors](#contributors)
-* [Questions](#bugreport)
+* [Questions](#questions)
 
 ## Description
  Most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
@@ -16,20 +15,16 @@ I will take starter code with a fully functioning Google Books API search engine
 
 
 ## User Story
-
 ```md
 AS AN avid reader
 I WANT to search for new books to read
 SO THAT I can keep a list of books to purchase
 ```
 
+## Usage
 
-
-
-Please navigate to the following URL in your browser:
-https://pearl-book-search-engine.herokuapp.com/ 
-
-
+ Please navigate to the following URL in your browser:
+`https://pearl-book-search-engine.herokuapp.com/` 
 
 New users will need to Sign Up. Click the Login/Signup button to be redirected to the signup form and enter your desired credentials then click submit.
 
