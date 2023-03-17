@@ -19,7 +19,7 @@ const server = new ApolloServer({
 });
 
 // integrate our Apollo server with the Express application as middleware
-server.applyMiddleware({ app });
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -34,7 +34,9 @@ app.get("*", (req, res) => {
 });
 
 // app.use(routes);
-
+const startApolloServer = async (typeDefs, resolvers) => {
+await server.start()
+server.applyMiddleware({ app });
 db.once("open", () => {
   app.listen(PORT, () => {
     console.log(`API server running on port ${PORT}!`);
@@ -45,3 +47,5 @@ db.once("open", () => {
 db.on("error", (err) => {
   console.error("MongoDB connection error: ", err);
 });
+}
+startApolloServer(typeDefs,resolvers)
