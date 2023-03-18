@@ -30,6 +30,12 @@ New users will need to Sign Up. Click the Login/Signup button to be redirected t
 
 Existing users can login via the Login/Signup button. Please enter your existing credentials to log in.
 
+## Screensots 
+![image](https://user-images.githubusercontent.com/113649566/226092054-6770f408-c8bf-409c-be4d-f1d0184c2e84.png)
+
+![image](https://user-images.githubusercontent.com/113649566/226092277-534edee7-c569-4410-b6c3-9eac469c6322.png)
+
+![image](https://user-images.githubusercontent.com/113649566/226092303-e05671e5-cfe6-4c9e-ab73-5572671e6c6f.png)
 
 ## License 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
